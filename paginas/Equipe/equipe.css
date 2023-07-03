@@ -1,0 +1,131 @@
+div#pg_id_equipe header.banner{
+  height: 280px !important;  
+  width: 100%;    
+  
+  background-color: #e3d6bb;
+  position: relative;  
+  z-index: -1;
+}
+
+div#pg_id_equipe header.banner:after{
+  content: "";
+  z-index: 1;
+  
+  background-image: url('/paginas/Equipe/img/banner.png') !important;
+  background-repeat: no-repeat;  
+  background-position: center center;  
+  background-attachment:initial;    
+ 
+  width: 100%;
+  height: 100%;  
+  
+  position: absolute;   
+  left: 0;
+  right: 0;
+  top: 0;
+  bottom: 0;
+}
+
+
+div#pg_id_equipe div.quadro{
+  background: url('/paginas/Equipe/img/bg2.jpg');
+  width: 100%;
+  background-size: cover;
+  display: table;  
+  text-align: center;  
+  margin: 0;
+  padding-bottom: 40px;
+  vertical-align: top;
+}
+
+div#pg_id_equipe div.quadro p{
+  text-align: justify;
+  
+  margin: .7em 2em;
+}
+
+div#pg_id_equipe div.quadro p:first-of-type{
+  margin-top: 2em;
+}
+
+div#pg_id_equipe div.quadro h1{
+  text-align: center;  
+  color: #a89b7f;
+  
+  text-shadow: 0px 1px 1px #e2d8c2;
+  font-weight: bold;
+  
+  margin: 0em;
+  MARGIN-BOTTOM: .5EM;
+  
+  width: 100%;
+  background-color: #cbbfa7;
+}
+
+div#pg_id_equipe div.quadro h6{
+  text-align: left;
+  margin: 0;
+  font-weight: bold;
+  font-size: 1.3em;
+  color: #684c31;  
+}
+
+div#pg_id_equipe div.quadro div.cartaz{  
+  margin: 1.5em;
+  max-width: 23em;
+  padding-top: 0.5em;  
+  text-align: justify;
+  display: inline-block;
+  color: #2b1c0d;
+  font-size: 1em; 
+  
+  -webkit-hyphens: auto;
+     -moz-hyphens: auto;
+          hyphens: auto; 
+          
+}
+
+div#pg_id_equipe div.quadro div.cartaz img{
+  float: left;
+  width: 96px;
+  height: auto;
+  margin-right: 1em;
+}
+
+div#pg_id_equipe div.quadro div.cartaz table,
+div#pg_id_equipe div.quadro div.cartaz tr,
+div#pg_id_equipe div.quadro div.cartaz td{
+  margin: 0;
+  padding: 0;
+  border: 0;
+  
+  font-size: 1em;
+}
+
+div#pg_id_equipe div.quadro div.cartaz table{
+  margin-top: 1em;
+  width: 100%;
+}
+
+div#pg_id_equipe div.quadro div.cartaz td{
+  padding: 0.2em .5em;
+  font-weight: bold;  
+  border-bottom: 1px solid #bbb;
+}
+
+div#pg_id_equipe div.quadro div.cartaz td.tag{
+  background-color: #eee;
+  font-weight: normal;
+}
+
+div#pg_id_equipe div.quadro blockquote {  
+  color: #34210f; 
+}
+
+div#pg_id_equipe div.quadro blockquote:before {
+  color: #c3aa82; 
+}
+
+div#pg_id_equipe div.quadro blockquote cite{
+  color: #c3aa82;
+}

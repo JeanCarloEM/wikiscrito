@@ -1,0 +1,110 @@
+div#pg_id_sobre header.banner{
+  height: 480px !important;
+  min-width: 320px;
+  max-width: 100%;
+  
+  background: url('/paginas/Sobre/img/logo_banner_lateral.png') repeat-x;  
+  position: relative;  
+  z-index: -1;	
+}
+
+div#pg_id_sobre header.banner:after{
+  content: "";
+  z-index: 1;
+  
+  background-image: url('/paginas/Sobre/img/logo_banner.png') !important;
+  background-repeat: no-repeat;  
+  background-position: center center;  
+  background-attachment:initial;    
+	background-size: cover;
+ 
+  width: 100%;
+  height: 100%;  
+  
+  position: absolute;   
+  left: 0;
+  right: 0;
+  top: 0;
+  bottom: 0;
+}
+
+div#pg_id_sobre div.quadro{
+  width: 100%;
+  background-color: #c1a77c;
+  background-image: url('/paginas/Sobre/img/bg.jpg');
+  background-size: cover;
+  display: table;  
+  text-align: center;  
+  margin: 0;
+  padding-bottom: 40px;
+}
+
+div#pg_id_sobre div.quadro h1{
+  text-align: center;  
+  color: #ac956f;
+  
+  text-shadow: 0px 1px 1px #d6c09a;
+  font-weight: bold;
+  
+  margin: 0em;
+  MARGIN-BOTTOM: .5EM;
+  
+  width: 100%;
+  background-color: #2b1c0d;
+}
+
+div#pg_id_sobre div.quadro h6{
+  text-align: left;
+  margin: 0;
+  font-weight: bold;
+  font-size: 1.3em;
+  color: #684c31;
+  
+}
+
+div#pg_id_sobre div.quadro div.cartaz{  
+  margin: 1.5em;
+  max-width: 22em;
+  padding-top: 136px;  
+  text-align: justify;
+  display: inline-block;
+  color: #2b1c0d;
+  background-size: auto 116px !important;  
+}
+
+div#pg_id_sobre div.quadro div.missao{
+  background: url('/paginas/Sobre/img/Target.png') no-repeat;
+  background-position: center top;
+}
+
+div#pg_id_sobre div.quadro div.visao{
+  background: url('/paginas/Sobre/img/visao.png') no-repeat;
+  background-position: center top;
+}
+
+div#pg_id_sobre div.quadro div.valores{
+  background: url('/paginas/Sobre/img/balanca.png') no-repeat;
+  background-position: center top;
+}
+
+div#pg_id_sobre div.quadro{
+  text-shadow: 1px 1px .3em #999;
+  font-size: 1em;
+}
+
+div#pg_id_sobre div.quadro blockquote:before {
+  color: #c3aa82; 
+}
+
+div#pg_id_sobre div.quadro blockquote cite{
+  color: #c3aa82;
+  text-shadow: none;  
+}
+
+div#pg_id_sobre div.quadro p{
+  margin: .5em 2em;
+}
+
+div#pg_id_sobre div.quadro p:first-of-type{
+  margin-top: 2em
+}

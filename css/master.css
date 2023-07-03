@@ -1,0 +1,569 @@
+/* 
+    Document   : splash
+    Created on : 05/04/2013, 20:14:10
+    Author     : JeanCarlo
+    Description:
+        Purpose of the stylesheet follows.
+*/
+
+root { 
+  display: block;
+}
+
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+  font-family: "sans-serif", Arial, Verdana, Helvetica;  
+  font-size: 100%;  
+  line-height: 1.3em;  
+  margin: 0;
+  padding: 0;
+  border: 0;
+  vertical-align: baseline;
+}
+
+window, html, body{
+  min-width: 320px;
+  height: 100%;
+  width: 100%;
+}
+
+body{
+  margin: 0px;
+  padding: 0px;
+  background: url('/img/cinza-solido.jpg');
+  font-size: 0.95em;  
+}
+
+body *{
+  font-size: 0.97em;
+}
+
+
+/* Links */
+a {
+	text-decoration: none;
+	color: #0645ad;
+	background: none;
+}
+a:visited {
+	color: #0b0080;
+}
+a:active {
+	color: #faa700;
+}
+a:hover, a:focus {
+	text-decoration: underline;
+}
+a.stub {
+	color: #772233;
+}
+a.new, #p-personal a.new {
+	color: #ba0000;
+}
+a.new:visited, #p-personal a.new:visited {
+	color: #a55858;
+}
+
+.wrapper{
+  min-height: 100% !important;
+  position: relative !important;
+}
+
+.wrapper_footer{
+  position: absolute !important;
+  left: 0;
+  right: 0;
+  bottom: 0;
+}
+
+div{
+  margin: 0;
+  padding: 0;
+  border: none;
+}
+
+header#master{
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  
+  z-index: 2;
+  
+  background-color: #e9e9e9;
+  border-bottom: 1px solid #e0e0e0;
+  border-top: 1px solid #bbbdb8;    
+  color: #686868; 
+  
+ -webkit-transition: all 0.3s ease-in-out;
+  -moz-transition: all 0.3s ease-in-out;
+  -o-transition: all 0.3s ease-in-out;
+  transition: all 0.3s ease-in-out;  
+}
+
+header#master.scroll{
+  background-color: #444; /* c2a97e */
+  background: url('/img/fundo.png');  
+  
+  -moz-box-shadow:    0px 1px 5px 1px #333;
+  -webkit-box-shadow: 0px 1px 5px 1px #333;  
+  box-shadow:         0px 1px 5px 1px #333;  
+  
+  border-bottom: 5px solid #c2aa7f; 
+ -webkit-transition: all 0.3s ease-in-out;
+  -moz-transition: all 0.3s ease-in-out;
+  -o-transition: all 0.3s ease-in-out;
+  transition: all 0.3s ease-in-out;  
+}
+  
+header#master,
+header#master div{
+  min-height: 2.5em;
+  height: 2.5em;
+  max-height: 2.5em;  
+  margin: 0;
+  padding: 0;
+}
+
+
+header#master.scroll,
+header#master.scroll div{
+  min-height: 1.5em;
+  height: 60px;
+  max-height: 60px;
+}
+
+header#master div.logo{
+  float: left;
+  background: none;
+  margin-right: 2em;
+  margin-left: 1em;
+  line-height: 2.5em;
+  max-height: 57px !important;
+  
+  font-weight: bold;
+  
+  color: #aaa;
+  
+ -webkit-transition: all 0.3s ease-in-out;
+  -moz-transition: all 0.3s ease-in-out;
+  -o-transition: all 0.3s ease-in-out;
+  transition: all 0.3s ease-in-out;    
+  white-space: nowrap;
+  
+  white-space: nowrap;
+
+  background-repeat: no-repeat !important  
+}
+
+header#master.scroll div.logo{
+  content: ".";  
+    
+  margin-top: 1.7px;   
+  line-height: 60px;
+  padding-left: 60px;
+  font-size: 1.5em;
+  color: #ccc;
+  
+  background: url('/LOGOs/png57.png') no-repeat;
+  background-repeat: no-repeat !important;
+  background-size: 48px auto;
+  background-position: left center;       
+}
+
+header#master img,
+header#master svg{
+  height: 24px !important;
+  width: 24px !important;
+
+  margin: 0;
+  margin-top: 5px;
+  cursor: pointer;
+  float: right;
+  
+ -webkit-transition: all 0.3s ease-in-out;
+  -moz-transition: all 0.3s ease-in-out;
+  -o-transition: all 0.3s ease-in-out;
+  transition: all 0.3s ease-in-out;     
+}
+
+header#master ul#principal{
+  max-width: 24px !important;
+  
+ -webkit-transition: all 0.3s ease-in-out;
+  -moz-transition: all 0.3s ease-in-out;
+  -o-transition: all 0.3s ease-in-out;
+  transition: all 0.3s ease-in-out;     
+}
+
+header#master.scroll ul#principal{
+  max-width: 44px !important;
+  padding-right: 1em;  
+}
+
+header#master svg path{
+  fill: #ccc;  
+}
+
+header#master svg:hover path{
+  fill: #666;
+  
+ -webkit-transition: all 0.3s ease-in-out;
+  -moz-transition: all 0.3s ease-in-out;
+  -o-transition: all 0.3s ease-in-out;
+  transition: all 0.3s ease-in-out;   
+}
+
+header#master.scroll svg path{
+  fill: #777;
+}
+
+header#master.scroll svg:hover path{
+  fill: #ccc;
+}
+
+header#master.scroll img,
+header#master.scroll svg{
+  height: 44px !important;
+  width: 44px !important;    
+  margin-top: 8px;
+}
+
+header#master ul.popap{
+  float: right;
+  margin: 0;
+  margin-right: 1em;
+  height: 100%;
+}
+
+header#master ul.popap ul *{
+  clear: both;
+}
+
+header#master ul.popap ul{
+  right: 5px;
+  left: auto;
+  
+  /* fallback */
+  background-color: #333;
+
+  /* Safari 4-5, Chrome 1-9 */
+  /* Can't specify a percentage size? Laaaaaame. */
+  background: -webkit-gradient(radial, center center, 0, center center, 460, from(#666), to(#333));
+
+  /* Safari 5.1+, Chrome 10+ */
+  background: -webkit-radial-gradient(circle, #666, #333);
+
+  /* Firefox 3.6+ */
+  background: -moz-radial-gradient(circle, #666, #333);
+
+  /* IE 10 */
+  background: -ms-radial-gradient(circle, #666, #333);
+  
+  border: 1px solid #333;
+  border-radius: .7em;
+  
+  -moz-box-shadow:    0px 1px 5px 1px #111;
+  -webkit-box-shadow: 0px 1px 5px 1px #111;  
+  box-shadow:         0px 1px 5px 1px #111;    
+  
+  margin: 0;
+  padding: 0; 
+}
+
+header#master ul.popap li{
+  border: none;
+  background: none;  
+  padding: 0;  
+  list-style-type: none; 
+  white-space: nowrap;
+}
+
+
+header#master ul.popap li a,
+header#master ul.popap li{
+  display: block;
+  height: 100%;
+  margin: 0;  
+
+  border: none;
+  display: block;
+  text-decoration: none !important;  
+  padding: 0 3px;
+}
+
+header#master ul.popap ul li{
+  border-top: 1px solid #777;
+  border-bottom: 1px solid #111;
+  clear: both;
+  padding: 0;
+}
+
+header#master ul.popap ul li:first-of-type{
+  margin-top: -1px;
+  border-top: none;
+}
+
+header#master ul.popap ul li:last-of-type{
+  margin-bottom: -1px;
+  border-bottom: none;
+  clear: both;
+}
+
+header#master ul.popap ul li a{
+  height: 100%;
+  line-height: 2em;
+  padding: 0 1em;
+  color: #aaa;
+  
+ -webkit-transition: all 0.3s ease-in-out;
+  -moz-transition: all 0.3s ease-in-out;
+  -o-transition: all 0.3s ease-in-out;
+  transition: all 0.3s ease-in-out;     
+}
+
+header#master ul.popap li a:hover{
+  background: none !important;
+}
+
+header#master ul.popap ul li a:hover{
+  background-color: rgba(255, 255, 255, 0.15) !important; 
+}
+
+header#master ul.popap ul li a:active{
+  background-color: rgba(255, 0, 0, 0.10) !important;  
+}
+
+header#master div.menu{  
+  box-sizing: border-box;  
+  min-height: 2.5em;
+  text-align: right;
+  overflow: hidden;
+  
+ -webkit-transition: all 0.3s ease-in-out;
+  -moz-transition: all 0.3s ease-in-out;
+  -o-transition: all 0.3s ease-in-out;
+  transition: all 0.3s ease-in-out;    
+}
+
+header#master.scroll div.menu{
+  min-height: 60px;
+  
+ -webkit-transition: all 0.3s ease-in-out;
+  -moz-transition: all 0.3s ease-in-out;
+  -o-transition: all 0.3s ease-in-out;
+  transition: all 0.3s ease-in-out;    
+}
+
+header#master div.menu ul{
+  height: 100%;
+  
+  padding: 0;
+  margin: 0;
+  
+  display: inline-block;
+  visibility: hidden;  
+  
+  white-space: nowrap;
+  margin-right: 1em;
+}
+
+header#master div.menu.inicializado ul {
+  visibility: visible !important;
+}
+
+header#master div.menu ul li{
+  display: inline-block;
+  list-style-type: none;    
+  margin: 0;
+}
+
+header#master div.menu ul li a{
+  display: block;
+  min-height: 100%;
+  padding: 0 .5em;
+  color: #777;
+}
+
+header#master div.menu ul li a{
+  line-height: 2.7em;   /* altura de header#master */  
+  
+ -webkit-transition: all 0.3s ease-in-out;
+  -moz-transition: all 0.3s ease-in-out;
+  -o-transition: all 0.3s ease-in-out;
+  transition: all 0.3s ease-in-out;    
+}
+
+header#master.scroll div.menu ul li a{
+  line-height: 60px;   /* altura de header#master */  
+  color: #fff;
+  
+ -webkit-transition: all 0.3s ease-in-out;
+  -moz-transition: all 0.3s ease-in-out;
+  -o-transition: all 0.3s ease-in-out;
+  transition: all 0.3s ease-in-out;    
+}
+
+header#master div.menu ul li a:hover{
+  text-decoration: none;
+  background-color: rgba(0, 0, 0, 0.10);
+  
+ -webkit-transition: all 0.3s ease-in-out;
+  -moz-transition: all 0.3s ease-in-out;
+  -o-transition: all 0.3s ease-in-out;
+  transition: all 0.3s ease-in-out;    
+}
+
+header#master.scroll ul li a:hover{
+  background-color: rgba(255, 255, 255, 0.15);
+  
+ -webkit-transition: all 0.3s ease-in-out;
+  -moz-transition: all 0.3s ease-in-out;
+  -o-transition: all 0.3s ease-in-out;
+  transition: all 0.3s ease-in-out;    
+}
+
+div#conteiner{
+  height: 100%;
+  clear: both;
+  display: block;
+  
+  z-index: 1;
+}
+
+div.pagina:first-of-type{
+  min-height: 100%;  
+  min-height: 256px;
+  height: 100% !important;
+}
+
+
+blockquote {  
+font-family: Georgia, serif;
+font-size: 1.8em;
+font-style: italic;
+margin: 1em;
+padding: 0em;
+line-height: 1.3;
+position: relative;
+color: #34210f; 
+text-align: justify;
+
+-webkit-hyphens: auto;
+   -moz-hyphens: auto;
+        hyphens: auto; 
+}
+
+@media all and (min-width: 415px){
+  blockquote{
+    margin: 2em;
+  }
+}
+
+blockquote.tarja {  
+  color: #34210f; 
+  background-color: #f5dfa0;  
+  
+  padding: 1em 1em;
+  margin: 1em 0;
+  text-align: center;
+}
+
+blockquote p,
+blockquote span {
+  background: url('/img/aspas.png') no-repeat;
+  background-size: 2em auto;
+  background-position: top left;
+  
+  display: inline-block;
+  
+  min-height: 3em;
+  padding: 0 0 0 2.3em;
+  
+  vertical-align: bottom;
+  text-align: left;
+}
+
+@media all and (min-width: 415px){  
+  blockquote.tarja {  
+    color: #34210f; 
+    background-color: #f5dfa0;  
+
+    padding: 1em 3em;
+    margin: 1em 0;
+    text-align: center;
+  }
+
+  blockquote p,
+  blockquote span{  
+    padding: 0 0 0 3.3em;    
+    background-size: 3em auto;    
+  }
+}
+
+blockquote cite{
+  color: #c3aa82;
+  font-size: .8em;
+  display: inline;
+  margin-top: 5px;
+  text-align: center;
+  font-weight: bold;
+}
+ 
+blockquote cite:before {
+content: " \2014 \2009";
+}
+
+a.bola{
+  display: block;
+  position: absolute;
+      
+  margin-left: -32px;  
+  left: 50%;  
+  
+  margin-top: -32px;
+}
+
+a.bola,
+a.bola img,
+a.bola svg{
+  height: 64px;
+  width: 64px;
+}
+
+p{
+  text-indent: 5em;
+  text-align: justify;
+  margin-bottom: .5em;
+  -webkit-hyphens: auto;
+     -moz-hyphens: auto;
+          hyphens: auto;   
+}
+
+div{
+  vertical-align: top;
+}
+
+h1{
+  font: 2.5em 'LeagueGothicRegular';   
+}
+
+div.quadro{
+  text-align: center !important;
+}
+
+div.limitartamanho{
+  display: inline-block;
+  max-width: 1030px;
+}

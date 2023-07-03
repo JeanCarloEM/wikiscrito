@@ -1,0 +1,86 @@
+div#pg_id_contatar div.quadro{
+  width: 100%;
+  background-color: #fff;
+  background-size: cover;
+  display: table;  
+  text-align: center;  
+  margin: 0;
+  padding: 40px 0;
+  vertical-align: top;
+  
+  /* fallback */
+  background-color: #13559e;
+
+  /* Safari 4-5, Chrome 1-9 */
+  /* Can't specify a percentage size? Laaaaaame. */
+  background: -webkit-gradient(radial, center center, 0, center center, 460, from(#1a82f7), to(#052345));
+
+  /* Safari 5.1+, Chrome 10+ */
+  background: -webkit-radial-gradient(circle, #1a82f7, #052345);
+
+  /* Firefox 3.6+ */
+  background: -moz-radial-gradient(circle, #1a82f7, #052345);
+
+  /* IE 10 */
+  background: -ms-radial-gradient(circle, #1a82f7, #052345);
+  
+}
+
+div#pg_id_contatar div.quadro img.email,
+div#pg_id_contatar div.quadro svg.email{
+  width: 24em;
+}
+
+div#pg_id_contatar div.quadro svg.email path{
+  fill: rgba(255, 255, 255, .5);  
+}
+
+div#pg_id_contatar div.quadro div.social{
+  height: 6em;
+  margin-bottom: 2em;
+}
+
+div#pg_id_contatar div.quadro div.social a{
+  display: inline-block;
+ 
+  margin: 0;
+  margin-top: .5em;  
+  padding: .5em .5em 0 .5em;    
+}
+
+div#pg_id_contatar div.quadro div.social a,
+div#pg_id_contatar div.quadro div.social a svg,
+div#pg_id_contatar div.quadro div.social a img{
+  height: 4.5em;
+  width: 4.5em;
+  
+ -webkit-transition: all 0.3s ease-in-out;
+  -moz-transition: all 0.3s ease-in-out;
+  -o-transition: all 0.3s ease-in-out;
+  transition: all 0.3s ease-in-out;        
+  
+}
+
+div#pg_id_contatar div.quadro div.social a svg,
+div#pg_id_contatar div.quadro div.social a img{
+  height: 4.5em;
+  width: 4.5em;
+  
+  padding: 0;
+  margin: 0;
+  
+  display: inline-block;  
+}
+  
+div#pg_id_contatar div.quadro div.social a:hover{
+  text-decoration: none;
+  padding: 0;
+  margin-top: 0;  
+}
+
+div#pg_id_contatar div.quadro div.social a:hover,
+div#pg_id_contatar div.quadro div.social a:hover svg,
+div#pg_id_contatar div.quadro div.social a:hover img{
+  height: 5.5em;
+  width: 5.5em; 
+}

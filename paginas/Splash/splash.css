@@ -1,0 +1,84 @@
+div#conteiner div#pg_id_splash footer,
+div#conteiner div#pg_id_splash header{
+  min-height: 1.5em;
+  background-color: #e0e0e0;
+  border-bottom: 1px solid #bbbdb8;  
+  border-top: 1px solid #d0d0d0;    
+  padding: .5em;
+  color: #686868;
+}
+
+ div#conteiner div#pg_id_splash footer{
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  right: 0;  
+   
+  padding: 2em 2em 40px;  
+  
+  text-align: justify;
+  max-height: 24%;
+  overflow: auto;
+  
+  display: none;
+}
+
+@media screen and (min-height: 340px){
+  div#conteiner div#pg_id_splash footer{
+    display: block;
+  }
+}
+
+
+div#conteiner div#pg_id_splash footer a#licenca{
+  display: inline;
+  float: right;  
+}
+
+div#conteiner div#pg_id_splash footer span#descri{
+  display: none;  
+  margin-bottom: 1em;
+}
+
+@media screen and (min-height: 500px){
+  div#conteiner div#pg_id_splash footer span#descri{
+    display: block;
+  }
+}
+
+div#conteiner div#pg_id_splash footer span#licencatext{
+  display: block;
+  margin-right: 100px;
+}
+
+div#conteiner div#pg_id_splash hr{
+  display: inline-block;
+  width: 100%;
+  margin: 1.5em 0px 1.5em;
+  color: #d0d0d0;
+}
+
+
+div#pg_id_splash div.splash{  
+  background-color: #000;
+  background: url('/LOGOs/logo.png') no-repeat;
+  background-size: auto 70%; /* LARGURA, ALTURA */
+  background-position: center 50%;
+}
+
+@media screen and (min-height: 340px){
+  div#pg_id_splash div.splash{
+    background-size: auto 50%; /* LARGURA, ALTURA */
+    background-position: center 30%
+  }
+}
+
+div#pg_id_splash{
+  width: 100%;
+  min-height: 100%;
+  height: 100%;
+}
+
+div#pg_id_splash a.bola{
+  display: none;
+}

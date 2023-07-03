@@ -1,0 +1,124 @@
+/* 
+    Document   : splash
+    Created on : 05/04/2013, 20:14:10
+    Author     : JeanCarlo
+    Description:
+        Purpose of the stylesheet follows.
+*/
+
+root { 
+  display: block;
+}
+
+/* Links */
+a {
+	text-decoration: none;
+	color: #0645ad;
+	background: none;
+}
+a:visited {
+	color: #0b0080;
+}
+a:active {
+	color: #faa700;
+}
+a:hover, a:focus {
+	text-decoration: underline;
+}
+a.stub {
+	color: #772233;
+}
+a.new, #p-personal a.new {
+	color: #ba0000;
+}
+a.new:visited, #p-personal a.new:visited {
+	color: #a55858;
+}
+
+window, html, body, header, footer, article, nav, aside, div, td, tr, table{
+  font-family: Arial, Verdana, Helvetica, sans-serif;  
+  line-height: 1.5em;  
+  font-size: 0.9em;  
+}
+
+body{
+  margin: 0px;
+  padding: 0px;
+  background: url('cinza-solido.jpg');
+  min-height: 712px;
+}
+  
+footer, header{
+  min-height: 1.5em;
+  background-color: #dbd8d8;
+  border-bottom: 1px solid #bbbdb8;  
+  border-top: 1px solid #bbbdb8;    
+  padding: .5em;
+  color: #686868;
+}
+
+footer{
+  position: fixed;
+  
+  bottom: 0;  
+  
+  padding: 2em 2em 1em;  
+  
+  text-align: justify; 
+}
+
+
+footer a#licenca{
+  display: inline;
+  float: right;  
+}
+
+footer div#propriedade{
+  display: block;
+  
+  width: 18em;
+  float: left;
+
+  font-size: 1em;  
+  
+  min-height: 3em;
+  height: 100%;
+  
+  margin-right: 2em;
+}
+
+footer span#descri{
+  display: block;
+  margin-left: 20em;
+  
+  padding-left: 2em;  
+  border-left: 1px solid #bbbdb8;  
+}
+
+footer span#licencatext{
+  display: block;
+  margin-right: 100px;
+}
+
+hr{
+  display: inline-block;
+  width: 100%;
+  margin: 1.5em 0px 1.5em;
+}
+
+#logo{
+  background: url('LOGOs/logo.png') no-repeat;
+  background-size: 289px 400px;
+  background-position: center center;
+  
+  height: 512px;
+  width: 512px;
+   
+  margin-top: -376px;
+  margin-left: -256px;
+  
+  position: absolute;
+  
+  left: 50%;
+  top: 50%; 
+}

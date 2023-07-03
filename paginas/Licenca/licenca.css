@@ -1,0 +1,193 @@
+div#pg_id_licenca header.banner{
+  width: 100%;      
+
+  /* fallback */
+  background-color: #333;
+
+  /* Safari 4-5, Chrome 1-9 */
+  /* Can't specify a percentage size? Laaaaaame. */
+  background: -webkit-gradient(radial, center center, 0, center center, 460, from(#666), to(#333));
+
+  /* Safari 5.1+, Chrome 10+ */
+  background: -webkit-radial-gradient(circle, #666, #333);
+
+  /* Firefox 3.6+ */
+  background: -moz-radial-gradient(circle, #666, #333);
+
+  /* IE 10 */
+  background: -ms-radial-gradient(circle, #666, #333);
+  
+  
+  color: #ccc; 
+  text-align: center;
+  
+  padding-top: 100px;
+  padding-bottom: 3em;
+}
+
+div#pg_id_licenca header.banner p.big{
+  font-size: 1.5em;
+  line-height: 1em;
+  color: #fff;
+  margin: 0 1em;
+  margin-bottom: 3em;
+  text-indent: 0;
+  text-align: center;
+}
+
+div#pg_id_licenca header.banner table{
+  text-align: center;
+  display: inline-block;
+}
+
+div#pg_id_licenca header.banner table td{
+  padding: 1em;
+  max-width: 9em;
+  font-size: 1.2em;
+}
+
+div#pg_id_licenca header.banner img,
+div#pg_id_licenca header.banner svg{   
+  display: inline;
+   
+  height: 7em;
+  width: auto; 
+}
+
+div#pg_id_licenca header.banner img.cc,
+div#pg_id_licenca header.banner svg.cc{     
+  margin: 1em;
+  margin-top: 3em;
+  width: 1px;
+  height: 3.5em;  
+  width: auto;
+  vertical-align: top;
+}
+
+
+div#pg_id_licenca header.banner svg circle{
+  visibility: hidden;
+}
+
+div#pg_id_licenca header.banner svg *{
+  fill: #eee;
+}
+
+
+div#pg_id_licenca div.quadro a{
+  color: #ddd !important;
+}
+
+div#pg_id_licenca div.quadro a:visited{
+  color: #999 !important;
+}
+
+
+div#pg_id_licenca div.quadro{
+  width: 100%;
+  background-color: #555;
+  background-size: cover;
+  display: table;  
+  text-align: center;  
+  margin: 0;
+  padding-bottom: 40px;
+  vertical-align: top;
+}
+
+div#pg_id_licenca div.quadro div.limitartamanho{
+  
+}
+
+div#pg_id_licenca div.quadro p{
+  text-align: justify;
+  margin: .5em 2em;
+  color: #bbb;
+}
+
+div#pg_id_licenca div.quadro p:first-of-type{
+  margin-top: 2em;
+}
+
+div#pg_id_licenca div.quadro h1{
+  text-align: center;  
+  color: #9d8867;
+  
+  text-shadow: 0px 1px 1px #e2cfb3;
+  font-weight: bold;
+  
+  margin: 0em;
+  MARGIN-BOTTOM: .5EM;
+  
+  width: 100%;
+  background-color: #d7bb91;
+}
+
+div#pg_id_licenca div.quadro h6{
+  text-align: left;
+  margin: 0;
+  font-weight: bold;
+  font-size: 1.3em;
+  color: #684c31;
+  
+}
+
+div#pg_id_licenca div.quadro div.cartaz{  
+  margin: 1.5em;
+  max-width: 22em;
+  padding-top: 0.5em;  
+  text-align: justify;
+  display: inline-block;
+  color: #2b1c0d;
+  font-size: 1em;
+  
+  padding-left: 108px;   
+}
+
+div#pg_id_licenca div.quadro div.cartaz table,
+div#pg_id_licenca div.quadro div.cartaz tr,
+div#pg_id_licenca div.quadro div.cartaz td{
+  margin: 0;
+  padding: 0;
+  border: 0;
+  
+  font-size: 1em;
+}
+
+div#pg_id_licenca div.quadro div.cartaz table{
+  margin-top: 1em;
+}
+
+div#pg_id_licenca div.quadro div.cartaz td{
+  padding: 0.2em .5em;
+  font-weight: bold;  
+  border-bottom: 1px solid #bbb;
+}
+
+div#pg_id_licenca div.quadro div.cartaz td.tag{
+  background-color: #eee;
+  font-weight: normal;
+}
+
+div#pg_id_licenca div.quadro div.jeancarlo{
+  background: url('/paginas/Licenca/img/jc.png') no-repeat;
+  background-position: left top;
+  background-size: 96px auto;
+}
+
+div#pg_id_licenca div.quadro div.jeniffer{
+  background: url('/paginas/Licenca/img/je.png') no-repeat;
+  background-position: left top;
+  background-size: 96px auto;
+}
+
+div#pg_id_licenca div.quadro blockquote {  
+  color: #34210f; 
+}
+
+div#pg_id_licenca div.quadro blockquote:before {
+  color: #c3aa82; 
+}
+
+div#pg_id_licenca div.quadro blockquote cite{
+  color: #c3aa82;
+}

@@ -1,0 +1,45 @@
+div#pg_id_avisos div.quadro{
+  background-color: #fff;
+  background-size: cover;
+  display: table;  
+  text-align: center;  
+  margin: 0;
+  vertical-align: top;
+  
+  /* fallback */
+  background-color: #333;
+
+  /* Safari 4-5, Chrome 1-9 */
+  /* Can't specify a percentage size? Laaaaaame. */
+  background: -webkit-gradient(radial, center center, 0, center center, 460, from(#777), to(#333));
+
+  /* Safari 5.1+, Chrome 10+ */
+  background: -webkit-radial-gradient(circle, #777, #333);
+
+  /* Firefox 3.6+ */
+  background: -moz-radial-gradient(circle, #777, #333);
+
+  /* IE 10 */
+  background: -ms-radial-gradient(circle, #777, #333);
+  
+  box-shadow: inset -1px 0px 1em #000;
+  
+  heigth: 3em;
+  padding: 3em 2em;
+  padding-bottom: 5em;
+  color: #ccc;
+  text-align: justify !important;
+  font-size: .9em;  
+}
+
+div#pg_id_avisos div.quadro a{
+  color: #eee;
+}
+
+div#pg_id_avisos div.quadro a:active{
+  color: #999;
+}
+
+div#pg_id_avisos a.bola{
+  display: none;
+}
